@@ -1,20 +1,20 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - program that prints Holberton.
+ * main - entry block
  *
- * Return: int
+ * Return: 0
  */
 
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "Holberton";
+	char ermias[] = "_putchar";
+	
+	int c;
 
-	while (n < 9)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(str_hbt[n]);
-		n += 1;
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
 	return (0);
