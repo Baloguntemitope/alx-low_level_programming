@@ -5,13 +5,14 @@
  *
  * Return: Always 0.
  */
-int print_last_digit(int n)
+int main(void)
 {
-	int ln = n % 10;
+	int r;
 
-	if (n < 0)
-		ln = ln * -1;
-		_putchar(ln + '0');
-	        _putchar('\n');
-		return (ln);
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
 }
