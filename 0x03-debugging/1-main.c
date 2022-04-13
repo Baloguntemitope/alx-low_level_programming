@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlude "main.h"
+#include "main.h"
 /**
 * main - causes an infinite loop
 * Return: 0
