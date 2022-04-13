@@ -1,20 +1,19 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * main - Prints Holberton
+ * main - Prints _putchar
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	char ermias[] = "_putchar";
+	
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(ermias[c]);
+	}	
 	_putchar('\n');
 	return (0);
 }
