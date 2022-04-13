@@ -1,16 +1,22 @@
 #include "main.h"
 
 /**
- *_islower - checks for a lowercase character
- *@c: letter being tested
- * Return: Always 0
+ * print_alphabet_x10 - func
+ *
+ * Return - 0
  */
-
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-
-	if (c >= 97 && c <= 122)
-		return (1);
-	else
-		return (0);
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
 }
+_putchar('\n');
+b++;
+}
+
