@@ -8,24 +8,18 @@
  *
  * Return: a pointer to @dest
  */
-char *_strcat(char *dest, char *src)
+int main(void)
 {
-	int index_01 = 0;
-	int index_02 = 0;
+            char s1[98] = "Hello ";
+                char s2[] = "World!\n";
+                    char *p;
 
-	while (dest[index_01] != '\0')
-	{
-		index_01++;
-	}
-
-	while (src[index_02] != '\0')
-	{
-		dest[index_01 + index_02] = src[index_02];
-		index_02++;
-
-	}
-	dest[index_01 + index_02] = '\0';
-
-	return (dest);
+                        printf("%s\n", s1);
+                            printf("%s", s2);
+                                p = _strcat(s1, s2);
+                                    printf("%s", s1);
+                                        printf("%s", s2);
+                                            printf("%s", p);
+                                                return (0);
 }
 
