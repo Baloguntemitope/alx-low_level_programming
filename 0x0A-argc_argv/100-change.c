@@ -13,9 +13,9 @@ int give_change(int money);
  */
 int main(int argc, char *argv[])
 {
-	int money, change;
+	int money, cents;
 
-	money = change = 0;
+	money = cents = 0;
 
 	if (argc != 2)
 	{
@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
 	}
 
 	money = atoi(argv[1]);
-	change = give_change(money);
+	cents = give_change(money);
 
-	printf("%d\n", change);
+	printf("%d\n", cents);
 	return (0);
 }
 
