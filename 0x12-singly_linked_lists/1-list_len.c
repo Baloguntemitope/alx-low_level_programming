@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "lists.h"
+#include "list.h"
 
 /**
   * list_len - Show the number of elements of a list
