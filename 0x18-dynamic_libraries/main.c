@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-    _puts("Hello World!");
+    puts("Hello World!");
       return (0);
 }
